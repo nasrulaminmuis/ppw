@@ -1,0 +1,22 @@
+body{
+    background-image: url(src/asset/picture/cat.JPG);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    font-family: Georgia;
+}
+
+h1{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
+h2{
+    color: red;
+    font-size: 25px;
+}
+p{
+    margin-left: 50px;
+    color: white;
+    font-size: 24px;
+}
