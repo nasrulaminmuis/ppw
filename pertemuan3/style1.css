@@ -1,22 +1,28 @@
 body{
-    background-image: url(src/asset/picture/cat.JPG);
-    background-repeat: repeat;
+    background-image: url(asset/bg.jpg);
+    background-repeat: no-repeat;
     background-position: left top;
     background-attachment: fixed;
     font-family: Georgia;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 20px;
+
 }
 
 h1{
-    background-color: blueviolet;
+    border-radius: 20%;
+    background-color: oldlace;
     text-align: center;
-    color: white;
+    color: yellowgreen;
 }
 h2{
-    color: red;
+    color: wheat;
     font-size: 25px;
 }
 p{
     margin-left: 50px;
-    color: white;
+    color: whitesmoke;
     font-size: 24px;
 }
