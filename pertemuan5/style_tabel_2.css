@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    width: 100%;
+}
+
+th {
+    background-color: green;
+    color: white;
+    padding: 1%;
+    border-bottom: 1px solid #000;
+}
+td {
+    padding: 8px;
+    text-align: center;
+    padding: auto;
+    border-bottom: 1px solid #000;
+}
+
+.ganjil{
+    background-color: beige;
+}
+
+.genap{
+    background-color: white;
+}
+
+tr:hover {
+    background-color: palevioletred;
+}
