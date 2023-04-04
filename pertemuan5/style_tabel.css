@@ -1,8 +1,21 @@
 table {
     border-collapse: collapse;
-    width: 50%;
+    width: 80%;
+    margin: 0 auto;
+    overflow-x:auto;
 }
 
+.kop {
+    background-color: #FFA559;
+    color: rgb(61, 59, 59);
+}
+
+.hari {
+    background-color: #454545;
+    color: white;
+}
+
+.data:nth-child(odd) {background-color: #FFE6C7;}
 th,
 td {
     padding: 8px;
@@ -10,6 +23,7 @@ td {
     border: 1px solid #070000;
 }
 
-tr:hover {
-    background-color: coral;
+td:hover {
+    background-color: #FF6000;
+    color: aliceblue;
 }

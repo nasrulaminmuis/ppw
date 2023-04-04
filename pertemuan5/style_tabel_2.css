@@ -2,10 +2,12 @@ table {
     border-collapse: collapse;
     border: 1px solid #000;
     width: 100%;
+    overflow-x:auto;
 }
 
 th {
-    background-color: green;
+    background-color: blueviolet;
+    text-align: center;
     color: white;
     padding: 1%;
     border-bottom: 1px solid #000;
@@ -18,13 +20,17 @@ td {
 }
 
 .ganjil{
-    background-color: beige;
+    background-color: whitesmoke;
 }
 
 .genap{
-    background-color: white;
+    background-color: aquamarine;
 }
 
-tr:hover {
-    background-color: palevioletred;
+tr.ganjil:hover {
+    background-color: rgb(127, 178, 255);
+}
+
+tr.genap:hover {
+    background-color: rgb(101, 211, 174);
 }
