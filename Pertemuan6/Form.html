@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="style_form.css">
+
+</head>
+
+<body>
+
+<h3>Using CSS to style an HTML Form</h3>
+
+<div>
+
+<form action="/action_page.php" method="POST"> <label for="name">Nama</label>
+
+<input type="text" id="name" name="nama" placeholder="nama anda..
+
+<label for="nim">NIM</label>
+
+<input type="text" id="nim" name="nim" placeholder="nim anda..">
+
+<label for="tha">Tahun Angkatan</label> <input type="number" id="tha" name="thang">
+
+<label for="eml">Email</label>
+
+<input type="email" id="eml" name="email">
+
+<label for="almt">Alamat</label>
+
+<textarea name="alamat" id="almt"></textarea>
+
+<label for="tgllahir">Tanggal Lahir</label>
+
+<input type="date" id="tgllahir" name="tanggallahir"/>
+
+<label for="foto">Upload Foto</label>
+
+<input type="file" id="foto" name="foto" accept="image/*">
+
+<label for="agama">Agama</label>
+
+<select name="agama">
+
+<option value="pilih" selected>-Pilih Agama -</option> <option value="islam">Islam</option>
+
+<option value="kristen">Kristen</option>
+
+<option value="katholik">Katholik</option>
+
+<option value="hindu">Hindu</option>
+
+<option value="budha">Budha</option> <option value="konghucu">Kong Hu Cu</option>
+
+</select>
+
+Saya bersedia mengikuti seleksi yang ditentukan oleh panitia.
+
+<input type="checkbox" name="bersedia" value="ya"> <input type="submit" value="Submit">
+
+</form> </div>
+
+</body>
+
+</html>
